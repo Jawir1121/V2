@@ -26,7 +26,7 @@ elif c == "1":
     os.system("npm i crypto")
     os.system("npm i cluster")
     os.system("npm i user-agents")
-    os.system("npm i user-agent")
+    os.system("npm i fake-useragent")
     os.system("npm i tls")
     os.system("npm i set-cookie-parser")
     os.system("npm i requests")
