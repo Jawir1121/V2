@@ -16,7 +16,7 @@ elif c == "1":
     os.system("pip3 install undetected_chromedriver")
     os.system("pip3 install httpx")
     os.system("pip3 install proxify")
-    os.system("npm install cloudflare-bypasser
+    os.system("npm install cloudflare-bypasser")
     
 ## Install nodeJs module
 
