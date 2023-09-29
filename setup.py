@@ -30,7 +30,6 @@ elif c == "1":
     os.system("npm i tls")
     os.system("npm i set-cookie-parser")
     os.system("npm i requests")
-    os.system("npm i request")
     os.system("npm i randomstring")
     os.system("npm i random-words")
     os.system("npm i random-useragent")
