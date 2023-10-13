@@ -215,16 +215,16 @@ func flood() {
 }
 
 func main() {
-fmt.Println("\u001B[35m	  ▄████  ▄▄▄       ██▀███    ██████ ▓█████  ▄████▄  ")
-fmt.Println("\u001B[35m ██▒ ▀█▒▒████▄    ▓██ ▒ ██▒▒██    ▒ ▓█   ▀ ▒██▀ ▀█  ")
-fmt.Println("\u001B[35m▒██░▄▄▄░▒██  ▀█▄  ▓██ ░▄█ ▒░ ▓██▄   ▒███   ▒▓█    ▄ ")
-fmt.Println("\u001B[35m░▓█  ██▓░██▄▄▄▄██ ▒██▀▀█▄    ▒   ██▒▒▓█  ▄ ▒▓▓▄ ▄██▒")
-fmt.Println("\u001B[35m░▒▓███▀▒ ▓█   ▓██▒░██▓ ▒██▒▒██████▒▒░▒████▒▒ ▓███▀ ░")
-fmt.Println("\u001B[35m ░▒   ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ░▒ ▒  ░")
-fmt.Println("\u001B[35m  ░   ░   ▒   ▒▒ ░  ░▒ ░ ▒░░ ░▒  ░ ░ ░ ░  ░  ░  ▒   ")
-fmt.Println("\u001B[35m░ ░   ░   ░   ▒     ░░   ░ ░  ░  ░     ░   ░        ")
-fmt.Println("\u001B[35m      ░       ░  ░   ░           ░     ░  ░░ ░      FUCK YOU WEBSITE LOL")
-fmt.Println("\u001B[35m                                           ░        ")
+fmt.Println("\u001B[35m	  ▄████  ▄▄▄       ██▀███    ██████ ▓█████  ▄████▄  
+fmt.Println("\u001B[35m ██▒ ▀█▒▒████▄    ▓██ ▒ ██▒▒██    ▒ ▓█   ▀ ▒██▀ ▀█  
+fmt.Println("\u001B[35m▒██░▄▄▄░▒██  ▀█▄  ▓██ ░▄█ ▒░ ▓██▄   ▒███   ▒▓█    ▄ 
+fmt.Println("\u001B[35m░▓█  ██▓░██▄▄▄▄██ ▒██▀▀█▄    ▒   ██▒▒▓█  ▄ ▒▓▓▄ ▄██▒
+fmt.Println("\u001B[35m░▒▓███▀▒ ▓█   ▓██▒░██▓ ▒██▒▒██████▒▒░▒████▒▒ ▓███▀ ░
+fmt.Println("\u001B[35m ░▒   ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ░▒ ▒  ░
+fmt.Println("\u001B[35m  ░   ░   ▒   ▒▒ ░  ░▒ ░ ▒░░ ░▒  ░ ░ ░ ░  ░  ░  ▒   
+fmt.Println("\u001B[35m░ ░   ░   ░   ▒     ░░   ░ ░  ░  ░     ░   ░        
+fmt.Println("\u001B[35m      ░       ░  ░   ░           ░     ░  ░░ ░      FUCK YOU WEBSITE LOL
+fmt.Println("\u001B[35m                                           ░        
 	if len(os.Args) != 6 {
 		fmt.Println("Post Mode will use header.txt as data")
 		fmt.Println("If you are using linux please run 'ulimit -n 999999' first!!!")

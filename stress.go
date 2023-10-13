@@ -62,6 +62,13 @@ var (
 		"https://steamcommunity.com/market/search?q=",
 		"https://www.ted.com/search?q=",
 		"https://play.google.com/store/search?q=",
+		"http://help.baidu.com/searchResult?keywords=",
+		"https://www.yandex.com/yandsearch?text=",
+		"http://search.aol.com/aol/search?q=",
+		"http://www.online-translator.com/url/translation.aspx?direction=er&sourceURL=",
+		"http://filehippo.com/search?q=",
+		"http://www.topsiteminecraft.com/site/pinterest.com/search?q=",
+		"https://steamcommunity.com/market/search?q=",
 	}
 	choice  = []string{"Macintosh", "Windows", "X11"}
 	choice2 = []string{"68K", "PPC", "Intel Mac OS X"}

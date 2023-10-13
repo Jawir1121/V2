@@ -16,7 +16,7 @@ elif c == "1":
     os.system("pip3 install undetected_chromedriver")
     os.system("pip3 install httpx")
     os.system("pip3 install proxify")
-    os.system("npm install cloudflare-bypasser")
+    os.system("npm install cloudflare-bypasser
     
 ## Install nodeJs module
 
@@ -26,10 +26,11 @@ elif c == "1":
     os.system("npm i crypto")
     os.system("npm i cluster")
     os.system("npm i user-agents")
-    os.system("npm i fake-useragent")
+    os.system("npm i user-agent")
     os.system("npm i tls")
     os.system("npm i set-cookie-parser")
     os.system("npm i requests")
+    os.system("npm i request")
     os.system("npm i randomstring")
     os.system("npm i random-words")
     os.system("npm i random-useragent")
